@@ -12,15 +12,15 @@ def main(n):
     d=n//10%10
     f=n%10
     max=a
-    ind=1
+    ind=5
     if b>max:
-        ind=2
+        ind=4
     if c>max:
         ind=3
     if d>max:
-        ind=4
+        ind=2
     if f>max:
-        ind=5
+        ind=1
     return ind
 n=int(input())
 print(main(n))
