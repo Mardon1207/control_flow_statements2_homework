@@ -8,4 +8,13 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    max=a
+    if b>max:
+        max=b
+    if c>max:
+        max=c
+    return c
+a=int(input())
+b=int(input())
+c=int(input())
+print(main(a,b,c))
